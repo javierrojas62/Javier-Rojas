@@ -1,0 +1,9 @@
+@import "../scss/partials/variables"; // Siempre arriba de todo
+@import "../scss/partials/reset"; //Siempre debajo de las variables y arriba de todo
+@import "../scss/partials/header";
+@import "../scss/partials/main";
+@import "../scss/partials/footer";
+@import "../scss/partials/body";
+@import "../scss/partials/hover";
+@import "../scss/partials/mixin";
+@import "../scss/partials/media";// Media queries

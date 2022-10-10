@@ -1,0 +1,22 @@
+/* mixin */
+
+@mixin img-mark-mov {
+    width: 95px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+@mixin img-prod {
+    width: 75%;
+    padding: 15px;
+}
+
+@mixin fon-prod {
+    font-size: 1rem;
+    font-weight: bold;
+    }
+@mixin parr-prod {
+    font-size: 0.7rem;
+    
+}
+

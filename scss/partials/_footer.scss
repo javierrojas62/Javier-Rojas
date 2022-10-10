@@ -1,0 +1,20 @@
+/* footer */
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $secundaryColor;
+    text-align: center;
+    padding: 7px;
+}
+
+.fab {
+    font-size: 25px;
+    margin: 20px;
+
+}
+

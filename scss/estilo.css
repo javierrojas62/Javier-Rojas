@@ -1,0 +1,212 @@
+/* letras google */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+*::-moz-selection {
+  background-color: black;
+  color: rgb(34, 193, 195);
+}
+*::selection {
+  background-color: black;
+  color: rgb(34, 193, 195);
+}
+
+/* header-nav */
+.header {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.header .nav {
+  background-color: #29AB87;
+}
+
+/* main */
+.main {
+  padding: 50px;
+  margin: 50px;
+}
+.main .prod {
+  border-radius: 10px;
+  border: double;
+  background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "prod-1 prod-2" "prod-3 prod-4";
+}
+.main .prod-1 {
+  grid-area: prod-1;
+}
+.main .prod-2 {
+  grid-area: prod-2;
+}
+.main .prod-3 {
+  grid-area: prod-3;
+}
+.main .prod-4 {
+  grid-area: prod-4;
+}
+.main .h1 {
+  padding: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+.main .h2 {
+  text-align: center;
+  margin: 15px;
+  font-family: "Racing Sans One", cursive;
+  font-size: 1.3rem;
+}
+.main .p {
+  padding: 15px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main .main {
+  padding: 10px;
+}
+.main .video {
+  padding: 30px;
+}
+.main .button {
+  border-radius: 5px;
+  background-color: #24246c;
+  color: white;
+}
+.main .img-gab {
+  width: 150px;
+}
+.main .img-moni {
+  width: 200px;
+}
+.main .img-net {
+  width: 200px;
+}
+.main .img-pc {
+  width: 200px;
+}
+.main .img-redes {
+  width: 295px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 15px;
+}
+.main .img-logo {
+  width: 295px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 15px;
+}
+.main .img-web {
+  width: 295px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 15px;
+}
+
+/* footer */
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #29AB87;
+  text-align: center;
+  padding: 7px;
+}
+
+.fab {
+  font-size: 25px;
+  margin: 20px;
+}
+
+/* body */
+body {
+  background: rgb(34, 193, 195);
+  background: radial-gradient(circle, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+}
+
+/* hover */
+.redes a i:hover {
+  transform: scale(1.5);
+  transition: all 0.5ms;
+}
+
+/* mixin */ /* media queries */
+@media screen and (max-width: 480px) {
+  .main {
+    margin: 0px;
+    padding: 50px;
+  }
+  .main .prod {
+    border-radius: 10px;
+    border: double;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "prod-1" "prod-2" "prod-3" "prod-4";
+  }
+  .main .title-prod {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .main .p-prod {
+    font-size: 0.7rem;
+  }
+  .main .img-moni {
+    width: 75%;
+    padding: 15px;
+  }
+  .main .img-gab {
+    width: 75%;
+    padding: 15px;
+  }
+  .main .img-net {
+    width: 75%;
+    padding: 15px;
+  }
+  .main .img-pc {
+    width: 75%;
+    padding: 15px;
+  }
+  .main .video {
+    width: 100vw;
+  }
+  .main .img-redes {
+    width: 95px;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .main .img-logo {
+    width: 95px;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .main .img-web {
+    width: 95px;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  .footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #29AB87;
+    text-align: center;
+    padding: 5px;
+  }
+}/*# sourceMappingURL=estilo.css.map */
