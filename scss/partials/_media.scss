@@ -3,6 +3,7 @@
     .main {
         margin: 0px;
         padding: 50px;
+
         .prod {
             border-radius: 10px;
             border: double;
@@ -16,12 +17,14 @@
                 "prod-4";
         }
 
-        .title-prod{
+        .title-prod {
             @include fon-prod
         }
-        .p-prod{
+
+        .p-prod {
             @include parr-prod
         }
+
         .img-moni {
             @include img-prod
         }
@@ -29,16 +32,18 @@
         .img-gab {
             @include img-prod
         }
-        
+
         .img-net {
             @include img-prod
         }
+
         .img-pc {
             @include img-prod
         }
 
         .video {
             width: 100vw;
+            margin: 15px
         }
 
         .img-redes {
@@ -55,11 +60,17 @@
 
     }
 
+    .main-mrk {
+
+        margin: 0;
+        padding: 0;
+    }
+
     .footer {
-        height: 100px;
+        height: 10vh;
         display: flex;
-        flex-direction: column;
-        justify-content:center;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -67,5 +78,5 @@
         text-align: center;
         padding: 5px;
     }
-    
+
 }

@@ -181,6 +181,7 @@ body {
   }
   .main .video {
     width: 100vw;
+    margin: 15px;
   }
   .main .img-redes {
     width: 95px;
@@ -197,10 +198,14 @@ body {
     border-radius: 30px;
     padding: 15px;
   }
+  .main-mrk {
+    margin: 0;
+    padding: 0;
+  }
   .footer {
-    height: 100px;
+    height: 10vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
